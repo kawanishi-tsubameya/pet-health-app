@@ -6,7 +6,7 @@ IMAGE_DIR = "images"
 os.makedirs(IMAGE_DIR, exist_ok=True)
 from datetime import date, datetime, timedelta
 
-# 💄 ページテーマとスタイル設定（すべてのページに影響）
+# 💄 ページテーマとスタイル設定（すべてのページに影響）ここにカワニシの文字追加！！
 st.set_page_config(page_title="ペット成長日記 / Pet Growth Diary", layout="centered")
 st.markdown("""
     <style>
